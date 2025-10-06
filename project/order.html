@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Haven - Order</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="logo">☕ Coffee Haven</h1>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="specials.html">Specials</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Order Form -->
+  <main>
+    <h2>Place Your Order</h2>
+    <form class="order-form">
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="+91-9876543210" required>
+
+      <label for="item">Select Item:</label>
+      <select id="item" required>
+        <option value="">--Choose an item--</option>
+        <option>Vanilla Latte Combo - $9.99</option>
+        <option>Mocha Frappe Deal - $6.50</option>
+        <option>Cake + Coffee - $7.50</option>
+        <option>Iced Coffee Special - $11.00</option>
+      </select>
+
+      <label for="qty">Quantity:</label>
+      <input type="number" id="qty" min="1" value="1" required>
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" rows="4" placeholder="Enter your delivery address" required></textarea>
+
+      <button type="submit" class="order-btn">Confirm Order</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Coffee Haven ☕ | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

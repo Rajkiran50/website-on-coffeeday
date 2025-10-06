@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specials</title>
+  <link rel="stylesheet" href="specials.css">
+</head>
+<body>
+
+  <header>
+    <h1>&#x2615; Coffee Haven Specials</h1>
+    <nav>
+      <a href="homepage.html">Home</a> |
+      <a href="menu.html">Menu</a> |
+      <a href="specials.html" class="active">Specials</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="title">&#128293; This Week's Special Offers</h2>
+
+<section class="specials-grid">
+      
+      <div class="card">
+        <img src="vanilla.png" alt="Vanilla Latte Special">
+        <h3>Vanilla Latte Combo</h3>
+        <p>Latte + Croissant</p>
+        <p class="price">$9.99</p>
+        <a href="order.html" class="order-btn">Place Order</a>
+      </div>
+
+      <div class="card">
+        <img src="deal.png" alt="Mocha Frappe">
+        <h3>Mocha Frappe Deal</h3>
+        <p>Buy 1 Get 1 Free</p>
+        <p class="price">$6.50</p>
+        <a href="order.html" class="order-btn">Place Order</a>
+      </div>
+<div class="card">
+        <img src="cc.png" alt="Dessert Offer">
+        <h3>Cake + Coffee</h3>
+        <p>Any slice with Hot Coffee</p>
+        <p class="price">$7.50</p>
+        <a href="order.html" class="order-btn">Place Order</a>
+      </div>
+
+      <div class="card">
+        <img src="iced.png" alt="Iced Coffee">
+        <h3>Iced Coffee Special</h3>
+        <p>2 Iced Coffees + Donut</p>
+        <p class="price">$11.00</p>
+        <a href="order.html" class="order-btn">Place Order</a>
+      </div>
+
+    </section>
+  </main>
+<footer>
+    <p>© 2025 Coffee Haven &#x2615; All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
